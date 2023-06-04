@@ -1,0 +1,287 @@
+*{
+  margin: 0; 
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbarre{
+  position: relative;
+  margin-top: 76px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.nav-links{
+  display: flex;
+  justify-items: center;
+}
+
+.navbarre .nav-links ul {
+  display: flex;
+  margin-right: 107px;
+
+}
+.navbarre .nav-links ul li {
+  margin: 20px;
+  
+}
+
+.logo {
+  position: relative;
+  margin-left: 89px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20%;
+}
+
+.Login{
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px ;
+  background-color: #5746AF;
+  color: white;
+  border: 0;
+  margin-right: 138px;
+  margin-top: 8.5px;
+}
+
+.hero{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section-left{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 104px;
+  margin-left: 134px;
+  margin-right: 105px;
+  justify-content: center;
+}
+
+.hero-section-left p{
+  position: relative;
+  margin-top: 16px;
+}
+
+p{
+  color: #6F6C90;
+  line-height: 30px;
+  font-family: Inter;
+}
+.hero-section-right{
+  width: 449px;
+  height: 299px;
+  margin-top: 104px;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 132px;
+}
+.second-groupe{
+  position: relative;
+  margin-top: 101px;
+}
+.card{
+text-align: center;
+}
+.second-groupe p{
+  text-align: center;
+  margin-top: 23px;
+}
+
+.cards-form{
+  width: 394px;
+  height: 587px;
+  align-items: center;
+  background-color: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.18);
+  transition: transform .1s ease-in-out, box-shadow .1s, transform .2s ease-in-out
+}
+
+.second-groupe-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 61px;
+  margin-left: 98px;
+  margin-right: 78px;
+}
+
+.card-img{
+  width: 100%;
+  height: 299px;
+}
+
+.card-content{
+  position: relative;
+  margin-left: 50px;
+  margin-top: 34px;
+}
+.card-content p {
+  position: relative;
+  margin-top: 18px;
+}
+.card-content h4{
+  position: relative;
+  margin-top: 30px;
+  color: #5746AF;
+}
+
+.third-section-left{
+  position: relative;
+  margin-top: 107px;
+  margin-left: 127px;
+  width: 449px;
+  height: 299px;
+  margin-top: 104px;
+  margin-right: 105px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.third-section-right{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 104px;
+  margin-left: 134px;
+  margin-right: 105px;
+  justify-content: center;
+}
+
+.See-more-butt{
+  position: relative;
+  margin-top: 16px;
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px ;
+  background-color: #5746AF;
+  color: white;
+  border: 0;
+}
+
+.section-four{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 131px;
+  margin-left: 111px;
+  margin-right: 73px;
+}
+
+.second-card-form{
+  width: 348px;
+  height: 408px;
+  border: 1px solid #CBD5E1;
+  border-radius: 25px;
+}
+
+.img-second-card{
+  position: relative;
+  width: 64px;
+  height: 67px;
+  margin-top: 36px;
+  margin-left: 49px;
+  filter: drop-shadow(0px 4px 6px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 16px rgba(38, 50, 56, 0.08));
+
+}
+
+.second-card-content h2{
+  position: relative;
+  margin-top: 23px;
+  margin-bottom: 24px;
+  margin-left: 41px;
+}
+
+.second-card-content p {
+  position: relative;
+  margin-left: 41px;
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 197px;
+  margin-left: 110px;
+}
+
+.fourth-section-img{
+  position: relative;
+  margin-right: 68px;
+  width: 590px;
+  height: 590px;
+
+}
+
+.fourth-section-right{
+  display: flex;
+  flex-direction: column;
+  margin-right: 132px;
+}
+
+.fourth-section-right h2{
+  color: #5746AF;
+  margin-bottom: 35px;
+}
+.fourth-section-right input{
+  width: 513px;
+  height: 36px;
+  margin-top:27px ;
+  border: 1px solid #CBD5E1;
+  border-radius: 5px;
+}
+
+
+.fourth-section-right .input-content{
+  width: 513px;
+  height: 200px;
+  
+}
+
+.fourth-section-right button{
+  width: 67px;
+  height: 40px;
+  margin-top: 27px;
+  background-color: #E1F2E5;
+  padding:8px, 16px, 8px, 16px;
+  border-radius: 6px;
+  margin-left: 453px;
+  border: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left{
+  position: relative;
+  margin-top: 255px;
+  margin-left: 166px;
+}
+.footer-left ul{
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 47px;
+}
+.footer-left ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.footer-right{
+  margin-top: 255px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 138px;
+}
+.footer-right h3 {
+  color: #5746AF;
+}
